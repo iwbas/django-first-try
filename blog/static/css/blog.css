@@ -1,0 +1,17 @@
+h1 a {
+    margin-left: 25%;
+}
+
+body {
+    padding-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.post {
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px; /* 5px rounded corners */
+}
