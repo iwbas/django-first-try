@@ -9,9 +9,14 @@ class Post(models.Model):
     text = models.TextField()
     create_date = models.DateTimeField(default = timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
+
+    def kek(self):
+        print('ye it\'s here')
     
     def publish(self):
-        self.publish_date = timezone.now()
+        self.published_date = timezone.now()
+        print(self.published_date)
+        print('publish u know blin')
         self.save()
     
     def __str__(self):
